@@ -1,40 +1,15 @@
-<head>
-    <title>Tyler's blog</title>
-    <link rel="stylesheet" type="text/css" href="stylesheet-2.css"/>
-    
-</head>
-<body>
-    <header>
-        <table>
-            <tbody>
-                <tr>
-                    <td id="td"><a class="td" href="index.html">HOME</a>
-
-                    </td>
-                    <td id="td"><a class="td" href="blog-page.html">BLOG</a>
-
-                    </td>
-                    <td id="td"><a class="td" href="">GAME</a>
-
-                    </td>
-                </tr>
-            </tbody>
-        </table>
-        <p class="line-sep"></p>
-    </header>
-    <main>
-        <!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
 <html xmlns="http://www.w3.org/1999/xhtml">
     <head>
         <title>Unity Web Player | "Sample"</title>
     <script type="text/javascript" src="https://ajax.googleapis.com/ajax/libs/jquery/1.7.1/jquery.min.js"></script>
     <script type="text/javascript">
-        <!--
+        
         var unityObjectUrl = "http://webplayer.unity3d.com/download_webplayer-3.x/3.0/uo/UnityObject2.js";
         if (document.location.protocol == 'https:')
             unityObjectUrl = unityObjectUrl.replace("http://", "https://ssl-");
         document.write('<script type="text\/javascript" src="' + unityObjectUrl + '"><\/script>');
-        -->
+        
     </script>
         <script type="text/javascript">
         var u = new UnityObject2();
@@ -65,10 +40,35 @@
         });
         jQuery(function(){
             u.initPlugin(jQuery("#unityPlayer")[0], "tylermckenzie.github.io.unity3d");
-        });
+        }); 
         </script>
-    </head>
-    <body>
+
+
+    <title>Tyler's blog</title>
+    <link rel="stylesheet" type="text/css" href="stylesheet-2.css"/>
+    
+</head>
+<body>
+    <header>
+        <table>
+            <tbody>
+                <tr>
+                    <td id="td"><a class="td" href="index.html">HOME</a>
+
+                    </td>
+                    <td id="td"><a class="td" href="blog-page.html">BLOG</a>
+
+                    </td>
+                    <td id="td"><a class="td" href="">GAME</a>
+
+                    </td>
+                </tr>
+            </tbody>
+        </table>
+        <p class="line-sep"></p>
+    </header>
+        
+    <main>
         <p class="header">
             <span>Unity Web Player | </span>WebPlayer
         </p>
@@ -82,11 +82,10 @@
             </div>
         </div>
         <p class="footer">&laquo; created with <a href="http://unity3d.com/unity/" title="Go to unity3d.com">Unity</a> &raquo;</p>
-    </body>
-</html>
+    </main>
+
 
         
-    </main>
     <p class="line-sep"></p>
     <footer>
         <table>
@@ -107,3 +106,4 @@
         </table>
     </footer>
 </body>
+</html>
