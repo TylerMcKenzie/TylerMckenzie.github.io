@@ -12,11 +12,8 @@
         
     </script>
         <script type="text/javascript">
-        var params = {
-            width: 940, 
-            height: 600,
-    };
-        var u = new UnityObject2({ params: params });
+        
+        var u = new UnityObject2();
         u.observeProgress(function (progress) {
             var $missingScreen = jQuery(progress.targetEl).find(".missing");
             switch(progress.pluginStatus) {
