@@ -16,7 +16,7 @@
             width: "50%",
             height: "50%",
     };
-        var u = new UnityObject2();
+        var u = new UnityObject2({ params: params });
         u.observeProgress(function (progress) {
             var $missingScreen = jQuery(progress.targetEl).find(".missing");
             switch(progress.pluginStatus) {
