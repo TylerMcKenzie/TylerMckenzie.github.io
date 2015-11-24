@@ -68,3 +68,7 @@ body {
 #b-color {
     background-color: #14A1CC;
 }
+.game {
+    width: 960px;
+    height: 600px;
+}
