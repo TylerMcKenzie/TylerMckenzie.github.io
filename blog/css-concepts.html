@@ -2,7 +2,7 @@
 <head>
     <title>Tyler's blog</title>
     <meta charset="UTF-8">
-    <link rel="stylesheet" type="text/css" href="../stylesheets/css-concepts.css">
+    <link rel="stylesheet" type="text/css" href="../stylesheets/css-concepts.css"/>
 </head>
 <body>
     <div id="menu">
@@ -12,25 +12,47 @@
             <li><a href="../game-page.html">GAME</a></li>
         </ul>
     </div> 
-
+        
     <hr class="line-sep"></hr>
 
     <main>
         
-        <div class="div">           
-            <header id="welcome"><b>WELCOME!</b></header>
-            <img class="tyler" src="../imgs/home-pic.jpg" />
+        <div id="section">
+        <div class="blog_title">
+            <a name="11/15/15"/>
+            <h4> Tyler's Blog <p class="aside-font">11/15/15</p></h4>
+
+        </div>
+        <p>Well so far as I can see, speaking from what little experience that I posess, version control is pretty nifty! It lets you revise your code in a controlled manner. I would have to say that out of any pick, right now, I'd choose GitHub's form of version control. This form makes it really easy to see what files go into what you are making. It even color codes the old code and the new code along with chronologically showing what you changed! That's not the best part! GitHub lets you share your code with other people so you can get their opinions and coding suggestions! It even allows others to change directly what you have been working on! And GitHub, being as cool as it is, allows you to set your project to be run by you! So you are in a sense, THE BOSS! Fangirling aside, GitHub's version control creates this sense of security(the community) and power(the licensing) both of which I love! These are a few reasons why I would choose GitHub to store my code in!</p>
+            
+        <hr class="line-sep"></hr>
+            
+        <div class="blog_title">
+            <a name="11/28/15"/>
+            <h4>  What is the deal with "inline" and "inline-block"? <p class="aside-font">11/28/15</p></h4>
+        </div>
+        <p>Wait, what? Why even compare the two, they are the same thing right? At first glance it would be easy to assume such things. The truth is that these two displays act similarily but they have a few differences. To start off, let's explain specifically what the two really are. Starting with inline.</p>
+        <p>Inline: This display option lets the user display the element they want "inline" with the flow of the page versus being stacked on top of one another.</p>
+        <p>So then let's imagine that inline is like using a "span" element (Don't know what this is? Click <a href="http://www.w3schools.com/tags/tag_span.asp">here</a>). Then that span is placed within another "div" (What's this? Click <a href="http://www.w3schools.com/tags/tag_div.asp">here</a>) and given a height of 100px and a red border. It would look something like this:</p>
+        <img src="../imgs/blog-inline-image.png">
+        <p>As you can see that only the span has the border and not the height. That is because while the element is inline, it cannot have height as it would disrupt the "inline" flow of the div.</p>
+        <p>Adversly Inline-block allows the element to have a height. Because it creates a block, but keeps it "inline" with the element. Like so:</p>
+        <img src="../imgs/blog-inline-block-image.png">
+
+
+        <hr class="line-sep"></hr>
+
+
         </div>
 
         <aside id="aside">
             <h4>Blog Posts</h4>
-            <p id="aside-font"><a href="../blog-page.html">11/15/15</a></p>
+            <p class="aside-font"><a href="#11/15/15">Tyler's Blog</a></p>
+            <p class="aside-font"><a href="#11/28/15">Inline vs. Inline-Block</a></p>
         </aside>
 
     </main>
-
     <hr class="line-sep"></hr>
-
     <footer>
         <p id="f-header">contact me</p>
         <div>
@@ -42,4 +64,4 @@
         </div>        
     </footer>
 </body>
-</html>
+</htm>

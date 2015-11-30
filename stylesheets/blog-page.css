@@ -74,8 +74,6 @@ main {
 }
 
 #section {
-    float: left;
-    height: 70%;
     width: 60%;
     margin: 0em 15em 0em 5em;
 }
@@ -101,7 +99,3 @@ main {
     background-color: #14A1CC;
 }
 
-.game {
-    width: 960px;
-    height: 600px;
-}
