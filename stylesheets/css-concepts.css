@@ -17,21 +17,11 @@
     color: white;
 }
 
-.button { 
-    
- }
-
-#menu li {
-    display: inline-flex;
-    padding-left: 50px;
-    padding-right: 50px;
-}
-
 #menu {
     background-color: grey;
     text-align: center;
     font-weight: bold;
-    }
+}
 
 #menu a {
     padding: 13px 60px;
@@ -40,17 +30,13 @@
 
 #menu ul {
     height: auto;
-    margin: 0px;
-    
+    margin: 0px; 
 }
 
-body {
-    font-family: Cursive;
-}
-
-main {
-    display: flex;
-    justify-content: center;
+#menu li {
+    display: inline-flex;
+    padding-left: 50px;
+    padding-right: 50px;
 }
 
 footer {
@@ -64,8 +50,18 @@ footer li {
     padding-right: 50px;
 }
 
+body {
+    font-family: Cursive;
+}
+
+main {
+    display: flex;
+    justify-content: center;
+}
+
 #aside {
-    margin: 0px;
+    margin-right: 5em;
+    margin-left: auto;
     border: 3px solid #484848;
     height: 65%;
     width: 15em;
@@ -73,9 +69,19 @@ footer li {
     background-color: white;
 }
 
-#aside-font {
+.aside-font {
     font-size: .7em;
 }
+
+#section {
+    width: 60%;
+    margin: 0em 15em 0em 5em;
+}
+
+.blog_title {
+    margin-left: 1em;
+    min-width: 7em;
+    }
 
 .img-size {
     width: 30px;
@@ -84,22 +90,7 @@ footer li {
 
 #f-header {
     margin: auto;
+    text-align: center;
     color: grey;
 }
 
-.tyler {
-    height: 40em;
-    padding: 10px 84px;
-   
-}
-
-#welcome {
-    text-align: center;
-    border: 3px solid #484848;
-    background-color:#808080;
-    width: 40em;
-    }
-
-.div {
-    margin: 0px auto 0px 516px;
-}
