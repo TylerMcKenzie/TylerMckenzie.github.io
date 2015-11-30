@@ -1,53 +1,44 @@
 <html>
 <head>
 	<title>Tyler's Homepage</title>
+    <meta charset="UTF-8">
 	<link rel="stylesheet" type="text/css" href="stylesheets/index.css"/>
 </head>
 	<body>
-		<header>
-        <table>
-            <tbody>
-                <tr>
-                    <td id="td"><a class="td" href="index.html">HOME</a>
-
-                    </td>
-                    <td id="td"><a class="td" href="blog-page.html">BLOG</a>
-
-                    </td>
-                    <td id="td"><a class="td" href="game-page.html">GAME</a>
-
-                    </td>
-                </tr>
-            </tbody>
-        </table>
-        <p class="line-sep"></p>
-    </header>
-    <main>
-       
-        <center>
-            <header id="welcome"><b>WELCOME!</b></header>
-            <img class="tyler" src="imgs/home-pic.jpg" />
-        </center>
+		<div id="menu">
+            <ul>
+                <li><a href="index.html">HOME</a></li>
+                <li><a href="blog-page.html">BLOG</a></li>
+                <li><a href="game-page.html">GAME</a></li>
+            </ul>
+        </div>
         
-    </main>
-    <p class="line-sep"></p>
-    <footer>
-        <table>
-            <th colspan="3" id="f-header">contact me</th>
-            <tbody>
-                <tr>
-                    <td><a href="https://www.facebook.com/tyler.mckenzie.148?fref=ts"><img class="img-size" src="imgs/facebook-logo.png"/></a>
+        <hr class="line-sep"></hr>
+    
+        <main>
+           
+            <div class="div">           
+                <header id="welcome"><b>WELCOME!</b></header>
+                <img class="tyler" src="imgs/home-pic.jpg" />
+            </div>
 
-                    </td>
-                    <td><a href="https://www.linkedin.com/profile/preview?vpa=pub&locale=en_US"><img class="img-size" src="imgs/linkedin-logo.png"/></a>
+            <aside id="aside">
+                <h4>Blog Posts</h4>
+                <p id="aside-font"><a href="blog-page.html">11/15/15</a></p>
+            </aside>
+        </main>
 
-                    </td>
-                    <td><a href="https://github.com/TylerMcKenzie"><img class="img-size" src="imgs/github-logo.png"/></a>
-
-                    </td>
-                </tr>
-            </tbody>
-        </table>
-    </footer>
+        <hr class="line-sep"></hr>
+        
+        <footer>
+            <p id="f-header">contact me</p>
+            <div>
+                <ul>
+                    <li><a href="https://www.facebook.com/tyler.mckenzie.148?fref=ts"><img class="img-size" src="imgs/facebook-logo.png"/></a></li>
+                    <li><a href="https://www.linkedin.com/profile/preview?vpa=pub&  locale=en_US"><img class="img-size" src="imgs/linkedin-logo.png"/></a></li>
+                    <li><a href="https://github.com/TylerMcKenzie"><img class="img-size" src="imgs/github-logo.png"/></a></li>
+                </ul>
+            </div>
+        </footer>
 	</body>
 </html>
