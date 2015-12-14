@@ -58,6 +58,29 @@
 
         <hr class="line-sep"></hr>
         
+        <div class="blog_title">
+            <a name="12/13/15"/>
+            <h4>WE WANT ARRAYS!<p class="aside-font">12/13/15</p></h4>
+        </div>
+
+        <p>WHOA! So demanding! Fine! I'll give you one! What? You want more? Out of just one array? That's weird... So like arrays of 3 from 1 one array? Uhh... I don't know how to do that...</p>
+        <p>WAIT!!</p>
+        <p>I do.</p>
+        <p>EVERYONE CONFUSED?!? Good. I'll explain.</p>
+        <p>We can calm the hunger for arrays with a simple enumerable known as <code>.each_slice</code>. This enumerable will take a slice out of any array you want!</p>
+        <p>It works like this:</p>
+        <p><code>groups =  [nil, nil, nil, nil, nil, nil, nil, nil, nil, nil, nil, nil, nil, nil, nil]</code></p>
+        <p><code>groups = array.each_slice(3).to_a # => returns [[nil, nil, nil], [nil, nil, nil], [nil, nil, nil], [nil, nil, nil], [nil, nil, nil]]</code></p>
+        <p>Pretty neat eh? We made an array comprised of arrays that are 3 full! Woo! You can make delicious slices of any array that you want!</p>
+        <p>You can also do stuff to each slice if you want, like so:</p>
+        <p><code>(1..10).each_slice(3) { |a| p a }</code></p>
+        <p><code># outputs below</code></p>
+        <p><code>[1, 2, 3]</code></p>
+        <p><code>[4, 5, 6]</code></p>
+        <p><code>[7, 8, 9]</code></p>
+        <p><code>[10]</code></p>
+        <p>Nice!</p>
+
         </div>
 
         <aside id="aside">
@@ -65,6 +88,7 @@
             <p class="aside-font"><a href="#11/15/15">Tyler's Blog</a></p>
             <p class="aside-font"><a href="#11/28/15">Inline vs. Inline-Block</a></p>
             <p class="aside-font"><a href="#12/5/15">What are arrays and hashes?</a></p>
+            <p class="aside-font"><a href="#12/13/15">WE WANT ARRAYS!</a></p>
         </aside>
 
     </main>
