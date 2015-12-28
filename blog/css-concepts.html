@@ -81,6 +81,70 @@
         <p><code>[10]</code></p>
         <p>Nice!</p>
 
+
+
+        <hr class="line-sep"></hr>
+        
+        <div class="blog_title">
+            <a name="12/25/15"/>
+            <h4>Takin' Ya Too Class!<p class="aside-font">12/25/15</p></h4>
+        </div>
+
+        <p>Ready to get schooled? Bet ya are! Let's begin.</p>
+        <p>A class is like a bag that hold all your coding goodies! The way that this works is by using more baggy things known as "methods". They go in the class like baby bags, of code. Cute.</p>
+        <p>Still too vague? That's okay. We'll make an expample! Like adding words together. Using methods!</p>
+        <p>Let's start with an empty class.</p>
+        <p><code>Class Example_Word_Class</code></p>
+        <p><code>end</code></p>
+        <p>Easy! Now let's make or "define" a method!</p> 
+        <p><code>Class Example_Word_Class</code></p>
+        <p><code>def first_method_initialize</code></p>
+        <p><code></code></p>
+        <p><code>end</code></p>
+        <p><code>end</code></p>
+        <p>Next we will setup a string.</p>
+        <p><code>Class Example_Word_Class</code></p>
+        <p><code>def first_method_initialize</code></p>
+        <p><code>first_string = "Hey!"</code></p>
+        <p><code>p first_string # this "puts" the value of the variable to the console so it'd put "Hey!" to the console.</code></p>
+        <p><code>end</code></p>
+        <p><code>end</code></p>
+        <p>Now we wanted to add more to that right? But we wanted to use another method to do it. Then we would define a new method and simply add new information to the words or "String"</p>
+        <p><code>Class Example_Word_Class</code></p>
+        <p><code>def first_method_initialize</code></p>
+        <p><code>first_string = "Hey!"</code></p>
+        <p><code>end</code></p>
+        <p><code>def second_method_add</code></p>
+        <p><code>new_words = "We are new words!"</code></p>
+        <p><code>added_string = first_string + new_words</code></p>
+        <p><code>p added_string # => "Hey!We are new words!"</code></p>
+        <p><code>end</code></p>
+        <p><code>end</code></p>
+        <p>Oops! This code would actually not work! Even though the variables are within the same class they won't work with each method as the variables are specific to each method that they are in. The way to fix this would be to make the variables to each method. These would then be called "instance variables." They look like this. . .</p>
+        <p><code>Class Example_Word_Class</code></p>
+        <p><code>def first_method_initialize</code></p>
+        <p><code>@first_string = "Hey!"  # adding @ to the variable makes it an instance variable</code></p>
+        <p><code>end</code></p>
+        <p><code>def second_method_add</code></p>
+        <p><code>new_words = "We are new words!"</code></p>
+        <p><code>@first_string + new_words</code></p>
+        <p><code>end</code></p>
+        <p><code>end</code></p>
+        <p>Great! We are pretty much done with this code except we haven't run the class yet so nothing gets put out to the console.</p>
+        <p>So we'd do the following:</p>
+        <p><code>Class Example_Word_Class</code></p>
+        <p><code>def first_method_initialize</code></p>
+        <p><code>@first_string = "Hey!"</code></p>
+        <p><code>end</code></p>
+        <p><code>def second_method_add</code></p>
+        <p><code>new_words = "We are new words!"</code></p>
+        <p><code>@first_string + new_words</code></p>
+        <p><code>end</code></p>
+        <p><code>end</code></p>
+        <p><code>run_our_class = Example_Word_Class.new # => "Hey!"</code></p>
+        <p><code>run_our_class.second_method_add # => "Hey!We are new words!"</code></p>
+        <p>Cool stuff this coding business eh?</p>
+
         </div>
 
         <aside id="aside">
@@ -89,6 +153,7 @@
             <p class="aside-font"><a href="#11/28/15">Inline vs. Inline-Block</a></p>
             <p class="aside-font"><a href="#12/5/15">What are arrays and hashes?</a></p>
             <p class="aside-font"><a href="#12/13/15">WE WANT ARRAYS!</a></p>
+            <p class="aside-font"><a href="#12/25/15">Takin' Ya Too Class!</a></p>
         </aside>
 
     </main>
