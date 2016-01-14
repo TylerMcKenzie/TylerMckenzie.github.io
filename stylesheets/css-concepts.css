@@ -1,16 +1,16 @@
 .line-sep {
     clear: both;
 }
-
+/*<- Header styling ->*/
 #menu a:link {
     text-decoration: none;
-    color: black;
+    
 }
 
 #menu a:hover {
     color: white;
     background-color: black;
-    transition-duration: 0.7s;
+    transition-duration: 0.8s;
 }
 
 #menu a:visited{
@@ -18,19 +18,23 @@
 }
 
 #menu {
-    background-color: grey;
+    
+    background: linear-gradient(#ffffff,#5000cc);
     text-align: center;
     font-weight: bold;
-}
+    box-shadow: 1px 2px 10px black; 
+    }
 
 #menu a {
+    border: 0px solid;
+    border-radius: 1px 25px 1px 25px;
     padding: 13px 60px;
     
 }
 
 #menu ul {
     height: auto;
-    margin: 0px; 
+    margin: 0px;
 }
 
 #menu li {
@@ -38,11 +42,13 @@
     padding-left: 50px;
     padding-right: 50px;
 }
-
+/*<- Header styling ->*/
+/*Common site styling*/
 footer {
     height: auto;
     text-align: center;
     clear: both;
+    
 }
 
 footer li {
@@ -50,38 +56,6 @@ footer li {
     padding-right: 50px;
 }
 
-body {
-    font-family: Cursive;
-}
-
-main {
-    display: flex;
-    justify-content: center;
-}
-
-#aside {
-    margin-right: 5em;
-    margin-left: auto;
-    border: 3px solid #484848;
-    height: 65%;
-    width: 15em;
-    text-align: center;
-    background-color: white;
-}
-
-.aside-font {
-    font-size: .7em;
-}
-
-#section {
-    width: 60%;
-    margin: 0em 15em 0em 5em;
-}
-
-.blog_title {
-    margin-left: 1em;
-    min-width: 7em;
-    }
 
 .img-size {
     width: 30px;
@@ -93,4 +67,62 @@ main {
     text-align: center;
     color: grey;
 }
+
+body {
+    font-family: Ubuntu Condensed, Archivo Narrow, sans-serif;
+}
+/*Common site styling*/
+#indent  {
+    text-indent: 20px;
+}
+#hidden {
+    position: absolute;
+    top: 0;
+}
+
+#aside {
+
+    position: fixed;
+    height: 65%;
+    width: 15em;
+    text-align: center;
+    right: 20px;
+    top: 45px;
+}
+
+#aside ul {
+    list-style-type: none;
+    padding: 0;
+    
+}
+
+#aside li {
+    font-size: 15px;
+    margin-bottom: 5px;
+}
+
+#aside li a:link {
+    text-decoration: none;
+}
+
+#aside li a:hover {
+    text-decoration: underline;
+}
+
+#aside li a:visited {
+    color: black;
+}
+
+#section {
+    display: block;
+    width: 60%;
+    margin: 1em 15em 0em 5em;
+    
+}
+
+.blog_title {
+    margin-left: 1em;
+    min-width: 7em;
+    }
+
 
