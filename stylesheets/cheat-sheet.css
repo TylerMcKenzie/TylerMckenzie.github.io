@@ -31,15 +31,16 @@
     clear: both;
 }
 
+/*<- Header styling ->*/
 #menu a:link {
     text-decoration: none;
-    color: black;
+    
 }
 
 #menu a:hover {
     color: white;
     background-color: black;
-    transition-duration: 0.7s;
+    transition-duration: 0.8s;
 }
 
 #menu a:visited{
@@ -47,12 +48,16 @@
 }
 
 #menu {
-    background-color: grey;
+    
+    background: linear-gradient(#ffffff,#5000cc);
     text-align: center;
     font-weight: bold;
+    box-shadow: 1px 2px 10px black; 
     }
 
 #menu a {
+    border: 0px solid;
+    border-radius: 1px 25px 1px 25px;
     padding: 13px 60px;
     
 }
@@ -67,10 +72,11 @@
     padding-left: 50px;
     padding-right: 50px;
 }
+/*<- Header styling ->*/
 
 
 body {
-    font-family: Cursive;
+    font-family: Ubuntu Condensed, Archivo Narrow, sans-serif;
 }
 
 footer {
